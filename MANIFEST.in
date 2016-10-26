@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include issue_and_log *.css
+recursive-include issue_and_log *.csv
+recursive-include issue_and_log *.html
+recursive-include issue_and_log *.ico
+recursive-include issue_and_log *.js
+recursive-include issue_and_log *.json
+recursive-include issue_and_log *.md
+recursive-include issue_and_log *.png
+recursive-include issue_and_log *.py
+recursive-include issue_and_log *.svg
+recursive-include issue_and_log *.txt
+recursive-exclude issue_and_log *.pyc
